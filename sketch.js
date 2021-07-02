@@ -17,7 +17,7 @@ function setup() {
 	
 	groundObject=new ground(width/2,670,width,20);
 	dustbinObj=new dustbin(1200,650);
-	paper = new Paper(200, 450, 10);
+	paper = new Paper(200, 450, 100);
 
 	var render = Render.create({
 		element: document.body,
