@@ -8,7 +8,7 @@ class Paper{
             density: 1.2
         }
         
-        this.body = Bodies.circle(x, y, radius, options);
+        this.body = Bodies.circle(x, y, (radius/2), options);
         this.x = x;
         this.y = y;
         this.radius = radius;
